@@ -1,0 +1,7 @@
+# Everything is either built-in or preinstalled on normal Linux/WSL.
+
+bash          (4.0+)   required
+coreutils     (df, seq, date, cut, sort, head, awk)  required
+procps        (ps)     required
+iproute2      (ss)     optional — listening-ports count
+util-linux    (lastb)  optional — failed-logins panel
